@@ -34,7 +34,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void purchaseFor1000Test() {
+    public void userBoughtFor1000() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1000;
         int actual = cashbackHackService.remain(amount);
