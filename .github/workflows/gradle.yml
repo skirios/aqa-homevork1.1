@@ -4,7 +4,7 @@
 name: Java CI with Gradle
 
 on:
-  [ branch, pull_request ]
+  [branch, pull_request]
 
 
 jobs:
